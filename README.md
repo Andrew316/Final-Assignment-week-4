@@ -8,7 +8,7 @@
 
 # Reading training data
 
-#Read test data 
+# Read test data 
 
 # Part 1 Merge the data training and to create more tidy data 
 
