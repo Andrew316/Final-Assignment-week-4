@@ -12,4 +12,4 @@ Part 1 is to merge the datasets of both train and test to create one dataset
 Part 4: This variable, extracteddata, is showing the information from the data 
 set.
 
-Part 5: extractedData is used and within addition of subject. 
+Part 5: extractedData is used and within addition of subject.
