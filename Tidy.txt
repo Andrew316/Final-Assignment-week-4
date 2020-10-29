@@ -1,13 +1,11 @@
 
+=======
+> extractedData$Subject <- as.factor(extractedData$Subject)
 >
-
->extractedData$Subject <- as.factor(extractedData$Subject)
-> 
 > 
 > tidyData <- aggregate(. ~Subject + Activity, extractedData, mean)
 > 
 > tidyData <- tidyData[order(tidyData$Subject,tidyData$Activity),]
 > 
 > write.table(tidyData, file = "Tidy.txt", row.names = FALSE)
-
 >>>>>>> d92b5352a2d664be35e1cb4fce65b5ee8a19a35c
